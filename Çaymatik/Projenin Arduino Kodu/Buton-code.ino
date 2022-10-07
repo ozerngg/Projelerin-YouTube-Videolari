@@ -1,10 +1,10 @@
-#include <LiquidCrystal_PCF8574.h>  // kütüphane Tamamalandı
+#include <LiquidCrystal_PCF8574.h>  // Kütüphane tamamlandı
 LiquidCrystal_PCF8574 lcd(0x27);
  
 #define baslaButton 5      // Buton ve buzzer pinleri tanımlandı
 #define ledveBuzzer 4
 
-int saniye = 0;          // Lcd ekranda süremizi belirtme komutu
+int saniye = 0;          // LCD ekranda süremizi belirtme komutu
 int dakika = 20;
 int saat = 0;
 int basla = 0;
@@ -13,7 +13,7 @@ String displayText = "Tusa basiniz";
 void setup()
 {
   lcd.begin(16, 2); 
-  lcd.setBacklight(HIGH);       //Btonların giriş ve çıkışlarını ayarlamak
+  lcd.setBacklight(HIGH);       //Butonların giriş ve çıkışlarını ayarlama
   fnkFormat();
   pinMode(baslaButton,INPUT);
   pinMode(ledveBuzzer,OUTPUT);
@@ -37,7 +37,7 @@ void loop(){
   }
   if(basla==0)
   {
-    if(digitalRead(baslaButton) == 1) // butonu başlatma 
+    if(digitalRead(baslaButton) == 1) // Butonu başlatma 
     {
       displayText = "Demleniyor...";
       basla = 1;
@@ -45,7 +45,7 @@ void loop(){
     }
     
   }
-  if(basla==1)    // buton basıldığında ve zaman sıfırlandığında buzzer aktif hale gelsin
+  if(basla==1)    // Butona basıldığında ve zaman sıfırlandığında buzzer aktif hale gelsin
   {
       lcd.clear();
       fnkFormat();
