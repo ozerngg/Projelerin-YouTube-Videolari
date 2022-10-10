@@ -1,2 +1,10 @@
 ## Çaymatik Proje Detayı
-Türkiye'nin maker marketi Robotistan'dan herkese merhaba! Ben Bilal. Bu haftaki videomuzda Arduino kullanarak bir ÇayMatik yapacağız. Nedir bu ÇayMatik dediğinizi duyar gibiyiz. Daha fazla merak etmeden videomuzu izlemeye ne dersiniz? 😊 Çay tiryakileri ekran başına. Kahve severler siz de üzülmeyin. Bu projeyi kahve severler de rahatlıkla kullanabilirler. 😎 E hadi o zaman ne bekliyorsunuz videoyu sonuna kadar izleyip daha sonrasında projeyi yapmaya başlayın!
+Türkiye'nin maker marketi Robotistan'dan herkese merhaba! Ben Bilal. Bu haftaki videomuzda Arduino kullanarak bir ÇayMatik yapacağız. Nedir bu ÇayMatik dediğinizi duyar gibiyiz.
+Daha fazla merak etmeden videomuzu izlemeye ne dersiniz? 😊 Çay tiryakileri ekran başına. Kahve severler siz de üzülmeyin. Bu projeyi kahve severler de rahatlıkla kullanabilirler. 😎 E hadi o zaman ne bekliyorsunuz videoyu sonuna kadar izleyip daha sonrasında projeyi yapmaya başlayın!
+<object width="425" height="350">
+  <param name="movie" value="https://www.youtube.com/watch?v=RlGQnflx60Q" />
+  <param name="wmode" value="transparent" />
+  <embed src="https://www.youtube.com/watch?v=RlGQnflx60Q"
+         type="application/x-shockwave-flash"
+         wmode="transparent" width="425" height="350" />
+</object>
